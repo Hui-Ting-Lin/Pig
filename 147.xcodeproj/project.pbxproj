@@ -13,6 +13,7 @@
 		3394A845251DBD61006E31C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3394A844251DBD61006E31C1 /* Assets.xcassets */; };
 		3394A848251DBD61006E31C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3394A847251DBD61006E31C1 /* Preview Assets.xcassets */; };
 		3394A84B251DBD61006E31C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3394A849251DBD61006E31C1 /* LaunchScreen.storyboard */; };
+		4986874725248FBC009FA99C /* pig2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986874625248FBC009FA99C /* pig2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3394A847251DBD61006E31C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3394A84A251DBD61006E31C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3394A84C251DBD61006E31C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4986874625248FBC009FA99C /* pig2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pig2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3394A83E251DBD60006E31C1 /* AppDelegate.swift */,
 				3394A840251DBD60006E31C1 /* SceneDelegate.swift */,
 				3394A842251DBD60006E31C1 /* ContentView.swift */,
+				4986874625248FBC009FA99C /* pig2View.swift */,
 				3394A844251DBD61006E31C1 /* Assets.xcassets */,
 				3394A849251DBD61006E31C1 /* LaunchScreen.storyboard */,
 				3394A84C251DBD61006E31C1 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				3394A83F251DBD60006E31C1 /* AppDelegate.swift in Sources */,
 				3394A841251DBD60006E31C1 /* SceneDelegate.swift in Sources */,
+				4986874725248FBC009FA99C /* pig2View.swift in Sources */,
 				3394A843251DBD60006E31C1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
