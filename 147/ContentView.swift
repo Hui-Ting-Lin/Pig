@@ -438,12 +438,14 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-/*struct AppleView_LibraryContent:
+struct AppleView_LibraryContent:
     LibraryContentProvider{
+    @available(iOS 14.0, *)
+    @available(iOS 14.0, *)
     static var views:[LibraryItem]{
         [LibraryItem(ContentView(),title:"可愛胖豬",category: .control)]
     }
-}*/
+}
 
 
 
