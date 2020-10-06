@@ -93,6 +93,7 @@ struct ChickenView2: View{
 }
 
 
+
 struct ContentView: View {
     var body: some View {
         NavigationView {
@@ -271,8 +272,8 @@ struct ContentView: View {
                         path.addQuadCurve(to: CGPoint(x: 46, y: 513), control:CGPoint(x: 48, y: 530))
                         path.addQuadCurve(to: CGPoint(x: 30, y: 513), control:CGPoint(x: 35, y: 500))
                         path.addQuadCurve(to: CGPoint(x: 49, y: 530), control:CGPoint(x: 30, y: 530))
-                        path.addQuadCurve(to: CGPoint(x: 62, y: 528), control:CGPoint(x: 55, y: 530))
-                    }.stroke(Color(red: 70/255, green: 34/255, blue: 28/255), lineWidth: 3)//tail
+                        path.addQuadCurve(to: CGPoint(x: 60, y: 528), control:CGPoint(x: 55, y: 530))
+                    }.stroke(Color(red: 70/255, green: 34/255, blue: 28/255), style: StrokeStyle(lineWidth: 4, lineCap: .round))//tail
                     
                     Path { (path) in
                         path.move(to: CGPoint(x:95,y:230))
@@ -426,13 +427,23 @@ struct ContentView: View {
             }.navigationBarTitle("")
             .navigationBarHidden(true)
             
-            
-            
         }
     }
 }
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+/*struct AppleView_LibraryContent:
+    LibraryContentProvider{
+    static var views:[LibraryItem]{
+        [LibraryItem(ContentView(),title:"可愛胖豬",category: .control)]
+    }
+}*/
+
+
+
